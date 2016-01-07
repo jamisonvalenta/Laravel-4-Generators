@@ -29,9 +29,9 @@ return [
     |--------------------------------------------------------------------------
     |
     */
-    'model_target_path'   => app_path(),
+    'model_target_path'   => base_path('app'),
 
-    'controller_target_path'   => app_path('Http/Controllers'),
+    'controller_target_path'   => base_path('app/Http/Controllers'),
 
     'migration_target_path'   => base_path('database/migrations'),
 
