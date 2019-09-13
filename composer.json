@@ -1,5 +1,5 @@
 {
-    "name": "way/generators",
+    "name": "xethron/laravel-4-generators",
     "description": "Rapidly generate resources, migrations, models, and much more.",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0|^6.0"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.0",
@@ -19,7 +19,7 @@
         "behat/mink-extension": "~1.2.0",
         "behat/mink-goutte-driver": "~1.0.9",
         "behat/mink-selenium2-driver": "~1.1.1",
-        "phpunit/phpunit": "~3.7"
+        "phpunit/phpunit": "~3.7|^8.0"
     },
     "autoload": {
         "psr-0": {
